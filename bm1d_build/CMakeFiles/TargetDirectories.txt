@@ -1,0 +1,7 @@
+/home/hallgato4/hall4git/BrownM4/bm1d_build/CMakeFiles/install.dir
+/home/hallgato4/hall4git/BrownM4/bm1d_build/CMakeFiles/list_install_components.dir
+/home/hallgato4/hall4git/BrownM4/bm1d_build/CMakeFiles/rebuild_cache.dir
+/home/hallgato4/hall4git/BrownM4/bm1d_build/CMakeFiles/install/strip.dir
+/home/hallgato4/hall4git/BrownM4/bm1d_build/CMakeFiles/install/local.dir
+/home/hallgato4/hall4git/BrownM4/bm1d_build/CMakeFiles/BM1D.dir
+/home/hallgato4/hall4git/BrownM4/bm1d_build/CMakeFiles/edit_cache.dir
