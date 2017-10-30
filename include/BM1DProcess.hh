@@ -18,9 +18,12 @@ public:
   void SetP1(Double_t p1_new);
   void SetSigma(Double_t sigma_new);
   void SetMean(Double_t mean_new);
+  void SetGeneratorSeed(Int_t seed_new);
+  void SetGaussGeneratorSeed(Int_t seed_new);
 
   void Init();
   void Run();
+  void MultipleRun();
   
   std::vector<Double_t> GetT(){return t;}
   std::vector<Double_t> GetX(){return x;}
@@ -28,8 +31,8 @@ public:
  private:
   Int_t nSteps;
   Double_t p0,p1,p2,p3,p4;
-  Double_t mean,sigma;
-  TRandom* randomGenerator;
+  Double_t mean,sigma,limit_min, limit_max;
+  TRandom* randomGenerator, *randomGaussGenerator;
   Double_t rand1,rand2;
   std::vector<Double_t> t;
   std::vector<Double_t> x;
